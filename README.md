@@ -1,5 +1,5 @@
-# DC Motor Controller
-## Features
+# DC Motor Controller: Overview 
+## Key Features
 - **Microcontroller:** STM32F411CEU6 (STM32 Black Pill) with ST-Link
 - **Closed-Loop Speed Control:** Utilizes an quadrature encoder for feedback from single motor to achieve accurate and stable motor speed using control algorithm (TBD)
 - **Power Supply:** Can choose between a 12V Li-Po battery or DC jack as input, whic is stepped down using TPS5450 buck converter (12V to 5V) and further stepped down to 3.3V using a LDO (LP2985)
